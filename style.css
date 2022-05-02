@@ -1,0 +1,72 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: 50;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #252525;
+}
+
+.main__left {
+  height: 100%;
+  width: 50%;
+}
+
+.main__left__people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: black;
+  overflow: hidden;
+}
+
+.main__left__people svg {
+  position: fixed;
+  width: 50%;
+  left: -8%;
+}
+
+.main__right {
+  height: 100%;
+  width: 50%;
+}
+
+.main__right__people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.main__right__people svg {
+  position: fixed;
+  width: 50%;
+  right: -9%;
+}
+/*# sourceMappingURL=style.css.map */

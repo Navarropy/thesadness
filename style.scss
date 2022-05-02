@@ -1,0 +1,57 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: 50;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: rgb(37, 37, 37);
+
+    &__left {
+        height: 100%;
+        width: 50%;
+
+        &__people {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background: black;
+            overflow: hidden;
+            
+            svg {
+                position: fixed;
+                width: 50%;
+                left: -8%;
+            }
+        }
+    }
+
+    &__right {
+        height: 100%;
+        width: 50%;
+
+        &__people {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            overflow: hidden;
+            
+            svg {
+                position: fixed;
+                width: 50%;
+                right: -9%;
+            }
+        }
+    }
+}
